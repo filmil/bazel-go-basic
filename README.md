@@ -1,4 +1,4 @@
-# Basic go bazel project
+# Basic go bazel project [![Test status](https://github.com/filmil/bazel-go-basic/workflows/Test/badge.svg)](https://github.com/filmil/bazel-go-basic/workflows/Test/badge.svg)
 
 - `bazel` pegged to 6.4.0.
 - `.bazelrc` added, with user setup.
