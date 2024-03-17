@@ -1,6 +1,7 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
 # bazel run //:gazelle
+# XXX: edit this prefix
 # gazelle:prefix github.com/filmil/bazel-go-basic
 gazelle(name = "gazelle")
 
