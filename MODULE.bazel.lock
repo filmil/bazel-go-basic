@@ -148,313 +148,339 @@
     "https://bcr.bazel.build/modules/zlib/1.2.12/MODULE.bazel": "3b1a8834ada2a883674be8cbd36ede1b6ec481477ada359cd2d3ddc562340b27",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/MODULE.bazel": "eec517b5bbe5492629466e11dae908d043364302283de25581e3eb944326c4ca",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/source.json": "22bc55c47af97246cfc093d0acf683a7869377de362b5d1c552c2c2e16b7a806",
-    "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20210324.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20211102.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20230125.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20230802.0.bcr.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20230802.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20230802.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/abseil-cpp/20240116.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.1.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.1.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.11.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.15.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.17.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.18.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.19.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.30.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.4.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_features/1.9.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.0.3/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.1.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.2.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.2.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.3.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.4.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.4.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.5.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.6.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.7.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/bazel_skylib/1.7.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/buildifier_prebuilt/6.4.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/buildozer/7.1.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/gazelle/0.32.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/gazelle/0.33.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/gazelle/0.34.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/gazelle/0.35.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/google_benchmark/1.8.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/googletest/1.11.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/googletest/1.14.0.bcr.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/googletest/1.14.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/jsoncpp/1.9.5/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/libpfm/4.11.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.10/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.11/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.4/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.5/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.6/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.7/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/platforms/0.0.8/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/21.7/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/27.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/27.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/29.0-rc2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/29.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/3.19.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/3.19.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/protobuf/3.19.6/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/pybind11_bazel/2.11.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/re2/2023-09-01/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_android/0.1.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.10/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.13/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.14/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.15/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.16/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.6/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.8/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.0.9/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_cc/0.1.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_foreign_cc/0.9.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_fuzzing/0.5.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_go/0.41.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_go/0.42.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_go/0.44.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_go/0.46.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/4.0.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/5.3.5/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/6.0.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/6.4.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/6.5.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/7.10.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/7.12.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/7.2.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/7.3.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/7.6.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_java/8.12.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_jvm_external/4.4.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_jvm_external/5.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_jvm_external/5.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_jvm_external/5.3/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_jvm_external/6.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_jvm_external/6.3/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_kotlin/1.9.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_kotlin/1.9.6/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_license/0.0.3/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_license/0.0.7/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_license/1.0.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_pkg/0.7.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_pkg/1.0.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_proto/4.0.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_proto/5.3.0-21.7/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_proto/6.0.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_proto/7.0.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.10.2/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.23.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.25.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.28.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.31.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.4.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_python/0.40.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/rules_shell/0.2.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/stardoc/0.5.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/stardoc/0.5.3/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/stardoc/0.5.6/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/stardoc/0.7.0/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/stardoc/0.7.1/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/zlib/1.2.11/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/zlib/1.2.12/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/zlib/1.3.1.bcr.5/MODULE.bazel": "not found",
-    "https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/modules/zlib/1.3.1/MODULE.bazel": "not found"
+    "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198"
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
-    "@@buildifier_prebuilt+//:defs.bzl%buildifier_prebuilt_deps_extension": {
+    "@@gazelle+//:extensions.bzl%go_deps": {
       "general": {
-        "bzlTransitiveDigest": "y2GJUI2VOwO/vv3fwJwIPYNwcHBgaDeGXzvJQ5gZ/3Y=",
-        "usagesDigest": "m+RORtK3MOrJs2auGj/7mY7N11R7swVsHYHg1jls5hs=",
-        "recordedFileInputs": {},
+        "bzlTransitiveDigest": "jcbYQSrSBowVbn+JqSeB1QFY6Dmh2u10Wf8z0l2WHK8=",
+        "usagesDigest": "7d64JZj68MCFTp8sq+qqi15r+BZJ1FXbk+Vg46EtFv0=",
+        "recordedFileInputs": {
+          "@@//go.mod": "fd33c728fd7b5581bfae95f05c079408ad70eed86b2d1e5abecbaa195a35ada7",
+          "@@gazelle+//go.mod": "48dc6e771c3028ee1c18b9ffc81e596fd5f6d7e0016c5ef280e30f2821f60473",
+          "@@gazelle+//go.sum": "7c4460e8ecb5dd8691a51d4fa2e9e4751108b933636497ce46db499fc2e7a88d",
+          "@@rules_go+//go.mod": "de22304b720f7f61350ec1c9739de6c0a1b1103fd22bfeb6e92c6c843ddc6d6e",
+          "@@rules_go+//go.sum": "d56fdb19b21a5f12bcf625c49432371ac39c2def0f564098fbda107f7c080f40"
+        },
         "recordedDirentsInputs": {},
         "envVariables": {},
         "generatedRepoSpecs": {
-          "buildifier_darwin_amd64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "com_github_gogo_protobuf": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildifier-darwin-amd64"
+              "importpath": "github.com/gogo/protobuf",
+              "build_directives": [
+                "gazelle:proto disable"
               ],
-              "downloaded_file_path": "buildifier",
-              "executable": true,
-              "sha256": "eeb47b2de27f60efe549348b183fac24eae80f1479e8b06cac0799c486df5bed"
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=",
+              "replace": "",
+              "version": "v1.3.2"
             }
           },
-          "buildifier_darwin_arm64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "com_github_golang_mock": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildifier-darwin-arm64"
-              ],
-              "downloaded_file_path": "buildifier",
-              "executable": true,
-              "sha256": "fa07ba0d20165917ca4cc7609f9b19a8a4392898148b7babdf6bb2a7dd963f05"
+              "importpath": "github.com/golang/mock",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:YojYx61/OLFsiv6Rw1Z96LpldJIy31o+UHmwAUMJ6/U=",
+              "replace": "",
+              "version": "v1.7.0-rc.1"
             }
           },
-          "buildifier_linux_amd64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "com_github_golang_protobuf": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildifier-linux-amd64"
-              ],
-              "downloaded_file_path": "buildifier",
-              "executable": true,
-              "sha256": "be63db12899f48600bad94051123b1fd7b5251e7661b9168582ce52396132e92"
+              "importpath": "github.com/golang/protobuf",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg=",
+              "replace": "",
+              "version": "v1.5.3"
             }
           },
-          "buildifier_linux_arm64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_x_net": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildifier-linux-arm64"
-              ],
-              "downloaded_file_path": "buildifier",
-              "executable": true,
-              "sha256": "18540fc10f86190f87485eb86963e603e41fa022f88a2d1b0cf52ff252b5e1dd"
+              "importpath": "golang.org/x/net",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:mIYleuAkSbHh0tCv7RvjL3F6ZVbLjq4+R7zbOn3Kokg=",
+              "replace": "",
+              "version": "v0.18.0"
             }
           },
-          "buildifier_windows_amd64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_x_tools": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildifier-windows-amd64.exe"
-              ],
-              "downloaded_file_path": "buildifier.exe",
-              "executable": true,
-              "sha256": "da8372f35e34b65fb6d997844d041013bb841e55f58b54d596d35e49680fe13c"
+              "importpath": "golang.org/x/tools",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:zdAyfUGbYmuVokhzVmghFl2ZJh5QhcfebBgmVPFYA+8=",
+              "replace": "",
+              "version": "v0.15.0"
             }
           },
-          "buildozer_darwin_amd64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_google_genproto": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildozer-darwin-amd64"
-              ],
-              "downloaded_file_path": "buildozer",
-              "executable": true,
-              "sha256": "d29e347ecd6b5673d72cb1a8de05bf1b06178dd229ff5eb67fad5100c840cc8e"
+              "importpath": "google.golang.org/genproto",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:+kGHl1aib/qcwaRi1CbqBZ1rk19r85MNUf8HaBghugY=",
+              "replace": "",
+              "version": "v0.0.0-20200526211855-cb27e3aa2013"
             }
           },
-          "buildozer_darwin_arm64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_google_grpc": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildozer-darwin-arm64"
+              "importpath": "google.golang.org/grpc",
+              "build_directives": [
+                "gazelle:proto disable"
               ],
-              "downloaded_file_path": "buildozer",
-              "executable": true,
-              "sha256": "9b9e71bdbec5e7223871e913b65d12f6d8fa026684daf991f00e52ed36a6978d"
+              "build_file_generation": "on",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:pnP7OclFFFgFi4VHQDQDaoXUVauOFyktqTsqqgzFKbc=",
+              "replace": "",
+              "version": "v1.40.1"
             }
           },
-          "buildozer_linux_amd64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_google_grpc_cmd_protoc_gen_go_grpc": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildozer-linux-amd64"
-              ],
-              "downloaded_file_path": "buildozer",
-              "executable": true,
-              "sha256": "8dfd6345da4e9042daa738d7fdf34f699c5dfce4632f7207956fceedd8494119"
+              "importpath": "google.golang.org/grpc/cmd/protoc-gen-go-grpc",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:rNBFJjBCOgVr9pWD7rs/knKL4FRTKgpZmsRfV214zcA=",
+              "replace": "",
+              "version": "v1.3.0"
             }
           },
-          "buildozer_linux_arm64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_google_protobuf": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildozer-linux-arm64"
-              ],
-              "downloaded_file_path": "buildozer",
-              "executable": true,
-              "sha256": "6559558fded658c8fa7432a9d011f7c4dcbac6b738feae73d2d5c352e5f605fa"
+              "importpath": "google.golang.org/protobuf",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:g0LDEJHgrBl9N9r17Ru3sqWhkIx2NB67okBHPwC7hs8=",
+              "replace": "",
+              "version": "v1.31.0"
             }
           },
-          "buildozer_windows_amd64": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
+          "org_golang_x_mod": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "urls": [
-                "https://github.com/bazelbuild/buildtools/releases/download/v6.4.0/buildozer-windows-amd64.exe"
-              ],
-              "downloaded_file_path": "buildozer.exe",
-              "executable": true,
-              "sha256": "e7f05bf847f7c3689dd28926460ce6e1097ae97380ac8e6ae7147b7b706ba19b"
+              "importpath": "golang.org/x/mod",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:dGoOF9QVLYng8IHTm7BAyWqCqSheQ5pYWGhzW00YJr0=",
+              "replace": "",
+              "version": "v0.14.0"
             }
           },
-          "buildifier_prebuilt_toolchains": {
-            "repoRuleId": "@@buildifier_prebuilt+//:defs.bzl%_buildifier_toolchain_setup",
+          "org_golang_x_sys": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
             "attributes": {
-              "assets_json": "[{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"darwin\",\"sha256\":\"eeb47b2de27f60efe549348b183fac24eae80f1479e8b06cac0799c486df5bed\",\"version\":\"v6.4.0\"},{\"arch\":\"arm64\",\"name\":\"buildifier\",\"platform\":\"darwin\",\"sha256\":\"fa07ba0d20165917ca4cc7609f9b19a8a4392898148b7babdf6bb2a7dd963f05\",\"version\":\"v6.4.0\"},{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"linux\",\"sha256\":\"be63db12899f48600bad94051123b1fd7b5251e7661b9168582ce52396132e92\",\"version\":\"v6.4.0\"},{\"arch\":\"arm64\",\"name\":\"buildifier\",\"platform\":\"linux\",\"sha256\":\"18540fc10f86190f87485eb86963e603e41fa022f88a2d1b0cf52ff252b5e1dd\",\"version\":\"v6.4.0\"},{\"arch\":\"amd64\",\"name\":\"buildifier\",\"platform\":\"windows\",\"sha256\":\"da8372f35e34b65fb6d997844d041013bb841e55f58b54d596d35e49680fe13c\",\"version\":\"v6.4.0\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"darwin\",\"sha256\":\"d29e347ecd6b5673d72cb1a8de05bf1b06178dd229ff5eb67fad5100c840cc8e\",\"version\":\"v6.4.0\"},{\"arch\":\"arm64\",\"name\":\"buildozer\",\"platform\":\"darwin\",\"sha256\":\"9b9e71bdbec5e7223871e913b65d12f6d8fa026684daf991f00e52ed36a6978d\",\"version\":\"v6.4.0\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"linux\",\"sha256\":\"8dfd6345da4e9042daa738d7fdf34f699c5dfce4632f7207956fceedd8494119\",\"version\":\"v6.4.0\"},{\"arch\":\"arm64\",\"name\":\"buildozer\",\"platform\":\"linux\",\"sha256\":\"6559558fded658c8fa7432a9d011f7c4dcbac6b738feae73d2d5c352e5f605fa\",\"version\":\"v6.4.0\"},{\"arch\":\"amd64\",\"name\":\"buildozer\",\"platform\":\"windows\",\"sha256\":\"e7f05bf847f7c3689dd28926460ce6e1097ae97380ac8e6ae7147b7b706ba19b\",\"version\":\"v6.4.0\"}]"
+              "importpath": "golang.org/x/sys",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:h48lPFYpsTvQJZF4EKyI4aLHaev3CxivZmv7yZig9pc=",
+              "replace": "",
+              "version": "v0.15.0"
+            }
+          },
+          "org_golang_x_text": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "golang.org/x/text",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ=",
+              "replace": "",
+              "version": "v0.14.0"
+            }
+          },
+          "com_github_bazelbuild_buildtools": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "github.com/bazelbuild/buildtools",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:2Gc2Q6hVR1SJ8bBI9Ybzoggp8u/ED2WkM4MfvEIn9+c=",
+              "replace": "",
+              "version": "v0.0.0-20231115204819-d4c9dccdfbb1"
+            }
+          },
+          "com_github_bmatcuk_doublestar_v4": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "github.com/bmatcuk/doublestar/v4",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:FH9SifrbvJhnlQpztAx++wlkk70QBf0iBWDwNy7PA4I=",
+              "replace": "",
+              "version": "v4.6.1"
+            }
+          },
+          "com_github_fsnotify_fsnotify": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "github.com/fsnotify/fsnotify",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nosvA=",
+              "replace": "",
+              "version": "v1.7.0"
+            }
+          },
+          "com_github_google_go_cmp": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "github.com/google/go-cmp",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=",
+              "replace": "",
+              "version": "v0.6.0"
+            }
+          },
+          "com_github_pmezard_go_difflib": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "github.com/pmezard/go-difflib",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=",
+              "replace": "",
+              "version": "v1.0.0"
+            }
+          },
+          "org_golang_x_sync": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "golang.org/x/sync",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:60k92dhOjHxJkrqnwsfl8KuaHbn/5dl0lUPUklKo3qE=",
+              "replace": "",
+              "version": "v0.5.0"
+            }
+          },
+          "org_golang_x_tools_go_vcs": {
+            "repoRuleId": "@@gazelle+//internal:go_repository.bzl%go_repository",
+            "attributes": {
+              "importpath": "golang.org/x/tools/go/vcs",
+              "build_directives": [],
+              "build_file_generation": "auto",
+              "build_extra_args": [],
+              "patches": [],
+              "patch_args": [],
+              "sum": "h1:cOIJqWBl99H1dH5LWizPa+0ImeeJq3t3cJjaeOWUAL4=",
+              "replace": "",
+              "version": "v0.1.0-deprecated"
+            }
+          },
+          "bazel_gazelle_go_repository_config": {
+            "repoRuleId": "@@gazelle+//internal/bzlmod:go_deps.bzl%_go_repository_config",
+            "attributes": {
+              "importpaths": {
+                "com_github_gogo_protobuf": "github.com/gogo/protobuf",
+                "com_github_golang_mock": "github.com/golang/mock",
+                "com_github_golang_protobuf": "github.com/golang/protobuf",
+                "org_golang_x_net": "golang.org/x/net",
+                "org_golang_x_tools": "golang.org/x/tools",
+                "org_golang_google_genproto": "google.golang.org/genproto",
+                "org_golang_google_grpc": "google.golang.org/grpc",
+                "org_golang_google_grpc_cmd_protoc_gen_go_grpc": "google.golang.org/grpc/cmd/protoc-gen-go-grpc",
+                "org_golang_google_protobuf": "google.golang.org/protobuf",
+                "org_golang_x_mod": "golang.org/x/mod",
+                "org_golang_x_sys": "golang.org/x/sys",
+                "org_golang_x_text": "golang.org/x/text",
+                "com_github_bazelbuild_buildtools": "github.com/bazelbuild/buildtools",
+                "com_github_bmatcuk_doublestar_v4": "github.com/bmatcuk/doublestar/v4",
+                "com_github_fsnotify_fsnotify": "github.com/fsnotify/fsnotify",
+                "com_github_google_go_cmp": "github.com/google/go-cmp",
+                "com_github_pmezard_go_difflib": "github.com/pmezard/go-difflib",
+                "org_golang_x_sync": "golang.org/x/sync",
+                "org_golang_x_tools_go_vcs": "golang.org/x/tools/go/vcs",
+                "@rules_go+": "github.com/bazelbuild/rules_go",
+                "@gazelle+": "github.com/bazelbuild/bazel-gazelle"
+              },
+              "module_names": {
+                "@rules_go+": "rules_go",
+                "@gazelle+": "gazelle"
+              },
+              "build_naming_conventions": {}
             }
           }
         },
+        "moduleExtensionMetadata": {
+          "explicitRootModuleDirectDeps": [],
+          "explicitRootModuleDirectDevDeps": [],
+          "useAllRepos": "NO",
+          "reproducible": false
+        },
         "recordedRepoMappingEntries": [
           [
-            "buildifier_prebuilt+",
-            "bazel_skylib",
-            "bazel_skylib+"
-          ],
-          [
-            "buildifier_prebuilt+",
+            "gazelle+",
             "bazel_tools",
             "bazel_tools"
-          ]
-        ]
-      }
-    },
-    "@@gazelle+//internal/bzlmod:non_module_deps.bzl%non_module_deps": {
-      "general": {
-        "bzlTransitiveDigest": "Lhnrvy/Q5NKlOZuw05lVtFiqQ9pVM/yUKeAfMLXHqNc=",
-        "usagesDigest": "QHSoo4eEHZcROcvTv5EDumvGWu1C7Aeqfn/15ZiV2+A=",
-        "recordedFileInputs": {},
-        "recordedDirentsInputs": {},
-        "envVariables": {},
-        "generatedRepoSpecs": {
-          "bazel_gazelle_go_repository_cache": {
-            "repoRuleId": "@@gazelle+//internal:go_repository_cache.bzl%go_repository_cache",
-            "attributes": {
-              "go_sdk_name": "@rules_go++go_sdk+bazel-go-basic__download_0",
-              "go_env": {}
-            }
-          },
-          "bazel_gazelle_go_repository_tools": {
-            "repoRuleId": "@@gazelle+//internal:go_repository_tools.bzl%go_repository_tools",
-            "attributes": {
-              "go_cache": "@@gazelle++non_module_deps+bazel_gazelle_go_repository_cache//:go.env"
-            }
-          },
-          "bazel_gazelle_is_bazel_module": {
-            "repoRuleId": "@@gazelle+//internal:is_bazel_module.bzl%is_bazel_module",
-            "attributes": {
-              "is_bazel_module": true
-            }
-          }
-        },
-        "recordedRepoMappingEntries": [
-          [
-            "gazelle+",
-            "bazel_gazelle_go_repository_cache",
-            "gazelle++non_module_deps+bazel_gazelle_go_repository_cache"
-          ],
-          [
-            "gazelle+",
-            "go_host_compatible_sdk_label",
-            "rules_go++go_sdk+go_host_compatible_sdk_label"
-          ],
-          [
-            "rules_go++go_sdk+go_host_compatible_sdk_label",
-            "bazel-go-basic__download_0",
-            "rules_go++go_sdk+bazel-go-basic__download_0"
           ]
         ]
       }
@@ -750,70 +776,6 @@
             "rules_go+",
             "io_bazel_rules_go_bazel_features",
             "bazel_features+"
-          ]
-        ]
-      }
-    },
-    "@@rules_kotlin+//src/main/starlark/core/repositories:bzlmod_setup.bzl%rules_kotlin_extensions": {
-      "general": {
-        "bzlTransitiveDigest": "hUTp2w+RUVdL7ma5esCXZJAFnX7vLbVfLd7FwnQI6bU=",
-        "usagesDigest": "QI2z8ZUR+mqtbwsf2fLqYdJAkPOHdOV+tF2yVAUgRzw=",
-        "recordedFileInputs": {},
-        "recordedDirentsInputs": {},
-        "envVariables": {},
-        "generatedRepoSpecs": {
-          "com_github_jetbrains_kotlin_git": {
-            "repoRuleId": "@@rules_kotlin+//src/main/starlark/core/repositories:compiler.bzl%kotlin_compiler_git_repository",
-            "attributes": {
-              "urls": [
-                "https://github.com/JetBrains/kotlin/releases/download/v1.9.23/kotlin-compiler-1.9.23.zip"
-              ],
-              "sha256": "93137d3aab9afa9b27cb06a824c2324195c6b6f6179d8a8653f440f5bd58be88"
-            }
-          },
-          "com_github_jetbrains_kotlin": {
-            "repoRuleId": "@@rules_kotlin+//src/main/starlark/core/repositories:compiler.bzl%kotlin_capabilities_repository",
-            "attributes": {
-              "git_repository_name": "com_github_jetbrains_kotlin_git",
-              "compiler_version": "1.9.23"
-            }
-          },
-          "com_github_google_ksp": {
-            "repoRuleId": "@@rules_kotlin+//src/main/starlark/core/repositories:ksp.bzl%ksp_compiler_plugin_repository",
-            "attributes": {
-              "urls": [
-                "https://github.com/google/ksp/releases/download/1.9.23-1.0.20/artifacts.zip"
-              ],
-              "sha256": "ee0618755913ef7fd6511288a232e8fad24838b9af6ea73972a76e81053c8c2d",
-              "strip_version": "1.9.23-1.0.20"
-            }
-          },
-          "com_github_pinterest_ktlint": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_file",
-            "attributes": {
-              "sha256": "01b2e0ef893383a50dbeb13970fe7fa3be36ca3e83259e01649945b09d736985",
-              "urls": [
-                "https://github.com/pinterest/ktlint/releases/download/1.3.0/ktlint"
-              ],
-              "executable": true
-            }
-          },
-          "rules_android": {
-            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-            "attributes": {
-              "sha256": "cd06d15dd8bb59926e4d65f9003bfc20f9da4b2519985c27e190cddc8b7a7806",
-              "strip_prefix": "rules_android-0.1.1",
-              "urls": [
-                "https://github.com/bazelbuild/rules_android/archive/v0.1.1.zip"
-              ]
-            }
-          }
-        },
-        "recordedRepoMappingEntries": [
-          [
-            "rules_kotlin+",
-            "bazel_tools",
-            "bazel_tools"
           ]
         ]
       }
