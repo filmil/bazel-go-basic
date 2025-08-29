@@ -2,3 +2,8 @@
 try-import %workspace%/user.bazelrc
 
 # Add project-wide settings below.
+#
+# Adds a bazel registry with my registry first
+build \
+  --registry=https://raw.githubusercontent.com/fmil/bazel-central-registry/dev/ \
+  --registry=https://bcr.bazel.build
