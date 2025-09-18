@@ -13,7 +13,8 @@ jobs:
         uses: abhinavsingh/setup-bazel@v3
         with:
           version: 8.3.1
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Cache
         uses: actions/cache@v4
         with:
@@ -34,8 +35,6 @@ jobs:
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
           generateReleaseNotes: true
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Get release tag
         id: get_version
         run: echo "VERSION=${{ steps.tag_version.outputs.new_tag }}" >> $GITHUB_ENV
@@ -53,6 +52,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
           allowUpdates: true
           artifacts: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
 
