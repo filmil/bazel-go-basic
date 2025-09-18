@@ -1,4 +1,6 @@
+load("//build:my_package_name.bzl", "name_part_from_command_line")
 load("@rules_go//go:def.bzl", "go_binary", "go_library", "go_test")
+load("@rules_pkg//pkg:zip.bzl", "pkg_zip")
 
 go_library(
     name = "test_lib",
@@ -18,4 +20,19 @@ go_test(
     name = "test_test",
     srcs = ["main_test.go"],
     embed = [":test_lib"],
+)
+
+name_part_from_command_line(
+    name = "name_part_from_command_line",
+    build_setting_default = "@set_me@",
+)
+
+pkg_zip(
+    name = "zip",
+    srcs = [
+        ":test",
+    ],
+    package_dir = "test",
+    package_file_name = "test-{name_part}.zip",
+    package_variables = ":name_part_from_command_line",
 )
