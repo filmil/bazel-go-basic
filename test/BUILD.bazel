@@ -5,7 +5,7 @@ load("@rules_pkg//pkg:zip.bzl", "pkg_zip")
 go_library(
     name = "test_lib",
     srcs = ["main.go"],
-    # XXX: edit
+    # XXX: edit importpath
     importpath = "github.com/filmil/bazel-go-basic/test",
     visibility = ["//visibility:private"],
 )
