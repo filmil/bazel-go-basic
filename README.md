@@ -25,3 +25,7 @@ other toolchains you need as your project grows.
 - Use `bazel run //:gazelle` to tidy up your build files.
 - Use `bazel run //:buildifier` to format things.
 - `.gitignore` ignores bazel ephemeral files.
+- A setup for a coding assistant. (It's fashionable at the moment!)
+- A setup for auto-publishing the module to Bazel central registry, and a
+  privately owned, but public, secondary registry.
+- A workflow that cuts a new release each week.
