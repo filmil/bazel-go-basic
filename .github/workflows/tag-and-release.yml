@@ -34,6 +34,28 @@ jobs:
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
           generateReleaseNotes: true
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get release tag
+        id: get_version
+        run: echo "VERSION=${{ steps.tag_version.outputs.new_tag }}" >> $GITHUB_ENV
+      - name: Get repo name
+        id: get_repo_name
+        run: echo "REPO_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
+      - name: Archive Release
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
+          exclusions: '*.git* /*node_modules/* .editorconfig'
+      - name: "Publish source archive"
+        uses: ncipollo/release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          allowUpdates: true
+          artifacts: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
+
   release:
     needs: source-archive
     runs-on: ubuntu-latest
@@ -66,29 +88,3 @@ jobs:
         with:
           allowUpdates: true
           artifacts: "bazel-bin/test/test-${{ matrix.os }}-${{ matrix.arch }}.zip"
-  source-archive:
-    needs: tag
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Get release tag
-        id: get_version
-        run: echo "VERSION=${{ steps.tag_version.outputs.new_tag }}" >> $GITHUB_ENV
-      - name: Get repo name
-        id: get_repo_name
-        run: echo "REPO_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
-      - name: Archive Release
-        uses: thedoctor0/zip-release@0.7.5
-        with:
-          type: 'zip'
-          filename: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
-          exclusions: '*.git* /*node_modules/* .editorconfig'
-      - name: "Publish source archive"
-        uses: ncipollo/release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          allowUpdates: true
-          artifacts: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
-
