@@ -66,12 +66,6 @@ jobs:
         with:
           allowUpdates: true
           artifacts: "bazel-bin/test/test-${{ matrix.os }}-${{ matrix.arch }}.zip"
-  source-archive:
-    needs: tag
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Get release tag
         id: get_version
         run: echo "VERSION=${{ steps.tag_version.outputs.new_tag }}" >> $GITHUB_ENV
