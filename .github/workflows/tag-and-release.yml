@@ -57,7 +57,7 @@ jobs:
           artifacts: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
 
   release:
-    needs: source-archive
+    needs: tag
     runs-on: ubuntu-latest
     strategy:
       matrix:
