@@ -7,8 +7,6 @@ jobs:
   release:
     needs: source-archive
     runs-on: ubuntu-latest
-    pemissions:
-      contents: write
     strategy:
       matrix:
         arch: ["386", "amd64"]
