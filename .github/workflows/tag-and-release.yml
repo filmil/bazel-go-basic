@@ -47,14 +47,14 @@ jobs:
           type: 'zip'
           filename: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
           exclusions: '*.git* /*node_modules/* .editorconfig /bazel-*'
-      #- name: "Publish source archive"
-        #uses: ncipollo/release-action@v1
-        #env:
-          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #with:
-          #tag: ${{ steps.tag_version.outputs.new_tag }}
-          #allowUpdates: true
-          #artifacts: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
+      - name: "Upload source archive"
+        uses: ncipollo/release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          allowUpdates: true
+          artifacts: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
 
   release:
     needs: tag
