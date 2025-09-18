@@ -46,7 +46,7 @@ jobs:
         with:
           type: 'zip'
           filename: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
-          exclusions: '*.git* /*node_modules/* .editorconfig bazel-*'
+          exclusions: '*.git* /*node_modules/* .editorconfig /bazel-*'
       #- name: "Publish source archive"
         #uses: ncipollo/release-action@v1
         #env:
