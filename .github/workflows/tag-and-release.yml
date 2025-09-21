@@ -1,5 +1,9 @@
 name: Tag and Release
 
+env:
+  ZIP_PACKAGE: "//test",
+  BINARY_NAME: "bazel-bin/test/test"
+
 on:
   schedule:
     - cron: '0 0 * * 0'
@@ -59,9 +63,6 @@ jobs:
   release:
     needs: tag
     runs-on: ubuntu-latest
-    env:
-      ZIP_PACKAGE: "//test",
-      BINARY_NAME: "bazel-bin/test/test"
     strategy:
       matrix:
         arch: ["386", "amd64"]
