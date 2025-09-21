@@ -1,7 +1,7 @@
 name: Tag and Release
 
 env:
-  ZIP_PACKAGE: "//test",
+  ZIP_PACKAGE: "//test"
   BINARY_NAME: "bazel-bin/test/test"
 
 on:
