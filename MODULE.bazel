@@ -24,3 +24,6 @@ go_sdk.download(version = "1.25.0")
 
 go_deps = use_extension("@gazelle//:extensions.bzl", "go_deps")
 go_deps.from_file(go_mod = "//:go.mod")
+
+# Uncomment to override
+#include("//local:1.MODULE.bazel")
