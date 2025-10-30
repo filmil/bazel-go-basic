@@ -3,7 +3,6 @@
 [![Test status](https://github.com/filmil/bazel-go-basic/workflows/Test/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/test.yml)
 [![Publish on Bazel Central Registry status](https://github.com/filmil/bazel-go-basic/workflows/Publish%20on%20Bazel%20Central%20Registry/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/publish-bcr.yml)
 [![Publish to my Bazel registry status](https://github.com/filmil/bazel-go-basic/workflows/Publish%20to%20my%20Bazel%20registry/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/publish.yml)
-[![Release Binaries status](https://github.com/filmil/bazel-go-basic/workflows/Release%20Binaries/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/release.yml)
 
 This is an empty go project that you can use for spinning off your own projects
 that use `bazel` as a build system, and the go toolchain.  Of course you can add
@@ -28,4 +27,5 @@ other toolchains you need as your project grows.
 - A setup for a coding assistant. (It's fashionable at the moment!)
 - A setup for auto-publishing the module to Bazel central registry, and a
   privately owned, but public, secondary registry.
-- A workflow that cuts a new release each week.
+- A workflow that cuts a new release each week, and publishes to my bazel registry.
+- A workflow that gives an option to publish to BCR.
