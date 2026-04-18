@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "github.com/filmil/bazel-go-basic/proto/hello";
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloResponse {
+    string greeting = 1;
+}

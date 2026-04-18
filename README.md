@@ -21,6 +21,7 @@ other toolchains you need as your project grows.
 - `bazel build //...` works
 - `bazel test //...` passes
 - Workspace uses bzlmod (i.e. `MODULE.bazel` instead of `WORKSPACE`).
+- Protobuf support via `rules_proto` and `go_proto_library`.
 - Use `bazel run //:gazelle` to tidy up your build files.
 - Use `bazel run //:buildifier` to format things.
 - `.gitignore` ignores bazel ephemeral files.
