@@ -1,0 +1,1 @@
+../bazel-bin/proto/hello_go_proto_/github.com/filmil/bazel-go-basic/proto/hello/hello.pb.go
