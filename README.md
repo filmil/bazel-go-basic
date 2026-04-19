@@ -30,3 +30,10 @@ other toolchains you need as your project grows.
   privately owned, but public, secondary registry.
 - A workflow that cuts a new release each week, and publishes to my bazel registry.
 - A workflow that gives an option to publish to BCR.
+
+## Documentation
+
+- [AI Assistant BCR Publishing Rules](ai/AI_BCR.md)
+- [AI Assistant Git Rules](ai/AI_GIT.md)
+- [Gemini Configuration](GEMINI.md)
+- [Hello BZL Reference](hello.md)
