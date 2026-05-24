@@ -20,6 +20,8 @@ jobs:
           bazelisk-cache: true
           disk-cache: ${{ github.workflow }}
           repository-cache: true
+      - name: Print Env
+        run: "env"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build
