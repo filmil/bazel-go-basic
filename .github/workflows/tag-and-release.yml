@@ -34,7 +34,7 @@ jobs:
       changed: ${{ steps.changes.outputs.changed }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # Full history and tags: `git describe` needs both, and the default
           # shallow checkout has neither.
@@ -65,15 +65,15 @@ jobs:
       tag_name: ${{ steps.tag_version.outputs.new_tag }}
     steps:
       - name: Setup bazel
-        uses: bazel-contrib/setup-bazel@0.15.0
+        uses: bazel-contrib/setup-bazel@0.19.0
         with:
           bazelisk-cache: true
           disk-cache: ${{ github.workflow }}
           repository-cache: true
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "~/.cache/bazel"
           key: ${{ runner.os }}-bazel-${{ hashFiles('**/go.sum') }}
@@ -109,7 +109,7 @@ jobs:
         run: echo "REPO_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
       - name: "Publish source archive"
         if: ${{ steps.tag_version.outputs.new_tag != '' }}
-        uses: thedoctor0/zip-release@0.7.5
+        uses: thedoctor0/zip-release@0.7.6
         with:
           type: 'zip'
           filename: "${{ env.REPO_NAME }}-${{ env.VERSION }}.zip"
@@ -134,15 +134,15 @@ jobs:
         os: ["linux"]
     steps:
       - name: Setup bazel
-        uses: bazel-contrib/setup-bazel@0.15.0
+        uses: bazel-contrib/setup-bazel@0.19.0
         with:
           bazelisk-cache: true
           disk-cache: ${{ github.workflow }}
           repository-cache: true
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
       - name: Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "~/.cache/bazel"
           key: ${{ runner.os }}-${{ matrix.arch }}-bazel-${{ hashFiles('**/go.sum') }}

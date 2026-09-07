@@ -3,3 +3,7 @@ user.bazelrc
 .vscode
 local
 
+# The integration module resolves bazel-go-basic through a local_path_override
+# that the registry presubmit replaces, so its lock file describes a
+# resolution no other checkout shares.
+/integration/MODULE.bazel.lock
