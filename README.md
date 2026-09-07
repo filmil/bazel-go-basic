@@ -1,8 +1,9 @@
 # Basic go bazel project
 
-[![Test status](https://github.com/filmil/bazel-go-basic/workflows/Test/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/test.yml)
-[![Publish on Bazel Central Registry status](https://github.com/filmil/bazel-go-basic/workflows/Publish%20on%20Bazel%20Central%20Registry/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/publish-bcr.yml)
-[![Publish to my Bazel registry status](https://github.com/filmil/bazel-go-basic/workflows/Publish%20to%20my%20Bazel%20registry/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/publish.yml)
+[![Test](https://github.com/filmil/bazel-go-basic/actions/workflows/test.yml/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/test.yml)
+[![Tag and Release](https://github.com/filmil/bazel-go-basic/actions/workflows/tag-and-release.yml/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/tag-and-release.yml)
+[![Publish on Bazel Central Registry](https://github.com/filmil/bazel-go-basic/actions/workflows/publish-bcr.yml/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/publish-bcr.yml)
+[![Publish to my Bazel registry](https://github.com/filmil/bazel-go-basic/actions/workflows/publish.yml/badge.svg)](https://github.com/filmil/bazel-go-basic/actions/workflows/publish.yml)
 
 This is an empty go project that you can use for spinning off your own projects
 that use `bazel` as a build system, and the go toolchain.  Of course you can add
@@ -30,6 +31,9 @@ other toolchains you need as your project grows.
   privately owned, but public, secondary registry.
 - A workflow that cuts a new release each week, and publishes to my bazel registry.
 - A workflow that gives an option to publish to BCR.
+- A registry test module in `integration/`, which the Bazel Central
+  Registry presubmit builds against the published archive. Run it locally
+  with `cd integration && bazel test //...`.
 
 ## Documentation
 
