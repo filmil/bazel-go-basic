@@ -1,3 +1,3 @@
 module github.com/filmil/bazel-go-basic
 
-go 1.27.1
+go 1.27.3
